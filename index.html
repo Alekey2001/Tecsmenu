@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECS MENU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+<img src="IMAGENES/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito"  src="IMAGENES/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenido a nuestra tienda </span>
+                <h1>TEC´S MENU</h1>
+                <p>Podras Hallar la mejor comida mexicana disfruta de comida calidad sabrosa y antojosa, Costos accesibles  .</p>
+                <div class="butons">
+                   <a href="#" class="btn-1">disfruta</a>
+                   <a href="#" class="btn-1">promocion</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="IMAGENES/chilaquiles.jpg" alt="">
+
+            </div>
+        </div>
+    </header>
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Especialidad de la casa torta de chilaquiles con bisteque y cebolla ,pedirlo en productos </h3>
+                <a href="#">$35.00 </a>
+            </div>
+            <div class="ofert-img">
+                <img src="IMAGENES/torta de chilaqules.jpg" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Especialidad de la casa Agua de Jamaca, Pedirlo en productos </h3>
+                <a href="#">$15.00 </a>
+            </div>
+            <div class="ofert-img">
+                <img src="IMAGENES/agua de jamaica.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Especialidad de la casa Sushi, Pedirlo en productos </h3>
+                <a href="#">$85 </a>
+            </div>
+            <div class="ofert-img">
+                <img src="IMAGENES/sushi.avif" alt="">
+            </div>
+        </div>
+    </section>
+    <main class="products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="IMAGENES/sushi empanizado.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                    <h3>Sushi Empanizado</h3>
+                    <p>Empanizdo Relleno Unico y delicioso Surimi,el rollo entero de 9-10 rollos</p>
+                    <p class="precio">$110.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">agregar al carito </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="IMAGENES/hot cakes de avena.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                   <!--seccion de los precios y productos para agregar al carrito-->
+                    <h3>Hot Cakes de avena </h3>
+                    <p>Hot cakes de avena Increible sabor unico,1pz. </p>
+                    <p class="precio">$45.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">agregar al carito </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="IMAGENES/chilaquiles con bisteck.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                   <!---->
+                    <h3>Chilaquiles con bisteque </h3>
+                    <p>bisteque,crema,queso rallado,y cebolla con cilantro rico sabor casero  </p>
+                    <p class="precio">$55.00</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">agregar al carito </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="IMAGENES/chilaquiles 2.0.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                   <!--seccion de los precios y productos para agregar al carrito -->
+                    <h3>chilaquiles </h3>
+                    <p>chilaquiles,cebolla,queso rallado,cilantro caseros y ricos  </p>
+                    <p class="precio">$40.00 </p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">agregar al carito </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="IMAGENES/agua de jamaica.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                   <!--QUEDA PENDIETE EL PRECIO DE ESTA SECCION-->
+                    <h3>Agua de Jamaca</h3>
+                    <p>Rica agua refrescante 1vz 1/2 L</p>
+                    <p class="precio">$15.00 </p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">agregar al carito </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="IMAGENES/sushi.avif" alt="shusi-empanizado">
+                <div class="product-txt">
+                   <!--QUEDA PENDIETE EL PRECIO DE ESTA SECCION-->
+                    <h3>Sushi con Surimi</h3>
+                    <p>sushi de Surimi, con aguacate,queso,pepino. </p>
+                    <p class="precio">$85.00 </p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">agregar al carito </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="IMAGENES/agua de jamaica.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                   <!--QUEDA PENDIETE EL PRECIO DE ESTA SECCION-->
+                    <h3>agua de jamaica</h3>
+                    <p>agua de 1 LT </p>
+                    <p class="precio">$35.00 </p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">agregar al carito </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="IMAGENES/torta de chilaqules.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                   <!--QUEDA PENDIETE EL PRECIO DE ESTA SECCION-->
+                    <h3>torta de chilaquiles</h3>
+                    <p>torta de chilaquiles solos  </p>
+                    <p class="precio">$25.00 </p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">agregar al carito </a>
+                </div>
+             </div>
+             <div class="box">
+                <img src="IMAGENES/torta de chilaqules.jpg" alt="shusi-empanizado">
+                <div class="product-txt">
+                    <h3>torta de chilaquiles con bisteque</h3>
+                    <p>torta con bisteque </p>
+                    <p class="precio">$40.00 </p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">agregar al carito </a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-2" id="load-more">cargar mas</div>
+    </main>
+    <section class="testimonial container">
+        <span>testimoniales</span>
+        <h2>que opinan nuestros clientes </h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    SERVICO EXELENTE
+                </p>
+                <img src="IMAGENES/starts.png" alt="">
+                <h4>COMIDA EXELENTE DE BUENA CALIDAD Y RICA</h4>
+            </div>
+                <div class="testimonial-1">
+                    <p>
+                        CALIDAD DE COMIDA Y CALIDAD DE SERVICIO EXELENTE PERSONALIZACION DE PRODUCTOS 
+                    </p>
+                    <img src="IMAGENES/starts.png" alt="">
+                    <h4>AGUA FRESCA Y TAMBIEN DE EXELENTE CALIDAD Y EXELETE SERVICIO</h4>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>
+                    DERECHOS RESERVADOS A TEC´S JES DERECHOS DE AUTOR
+                </h3>
+                <ul>
+                    <li><a href="#">PUEDES CONTACTARTE</a></li>
+                    <li><a href="#">SERVICIOS Y HACESORIAS</a></li>
+                    <li><a href="#">PROGRAMADO POR ALEKEY2001</a></li>
+                    <li><a href="#">ENCONTRAR MAS PROYECTOS</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>
+                   SUCURSALES 
+                </h3>
+                <ul>
+                    <li><a href="#">EDOMEX</a></li>
+                    <li><a href="#">PROXIMAMENTE CDMX</a></li>
+                    <li><a href="#">PROXIMAMENTE ..</a></li>
+                    <li><a href="#">PROXIMAMENTE ....</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>
+                    PERSONAL
+                </h3>
+                <ul>
+                    <li><a href="#">PERSONAL </a></li>
+                    <li><a href="#">AMABLE</a></li>
+                    <li><a href="#">AGRADABLE</a></li>
+                    <li><a href="#">CONSTRUCTIVO</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>
+                    COMIDA
+                </h3>
+                <ul>
+                    <li><a href="#">PERSONALIZADA</a></li>
+                    <li><a href="#">HIGIENICA</a></li>
+                    <li><a href="#">PROPORCIONAL</a></li>
+                    <li><a href="#">DE GRAN SABOR</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
